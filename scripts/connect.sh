@@ -5,7 +5,7 @@ read email
 
 username="${email%@*}"
 
-rootPath="~/.ssh/$username"
+rootPath="$HOME/.ssh/$username"
 
 echo "Generating ssh key..."
 ssh-keygen -q -t ed25519 -C "${email}" -f "$rootPath" -N ""
