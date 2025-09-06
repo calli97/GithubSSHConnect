@@ -1,6 +1,6 @@
 #!/bin/bash
 
-user=${whoami}
+user=$(whoami)
 
 echo "USER: $user"
 
