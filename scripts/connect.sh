@@ -1,8 +1,12 @@
 #!/bin/bash
 
-user=${USER:-$(id -un)}
+
+
+user=$(id -un)
 
 echo "USER: $user"
+
+
 
 echo "Please enter your email:"
 read email
