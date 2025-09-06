@@ -1,8 +1,8 @@
 #!/bin/bash
 
-user=$(whoami)
+user=${USER:-$(id -un)}
 
-echo "USER: $USER"
+echo "USER: $user"
 
 echo "Please enter your email:"
 read email
