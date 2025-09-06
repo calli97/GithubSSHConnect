@@ -2,7 +2,7 @@
 
 user=$(whoami)
 
-echo "USER: $user"
+echo "USER: $USER"
 
 echo "Please enter your email:"
 read email
