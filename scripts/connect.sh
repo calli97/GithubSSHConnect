@@ -2,14 +2,14 @@
 
 user=${whoami}
 
-echo "USER: $user\n"
+echo "USER: $user"
 
-echo "Please enter your email:\n"
+echo "Please enter your email:"
 read email
 
 username="${email%@*}"
 
-echo "USERNAME: $username\n"
+echo "USERNAME: $username"
 
 # if [ "$user" = "root"];then
 #     rootPath="~/root/.ssh/$username"
