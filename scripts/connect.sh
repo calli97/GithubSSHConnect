@@ -20,4 +20,4 @@ fi
 echo "ROOTHPATH: $rootPath\n"
 
 echo "Hi $email - Generating ssh key..."
-ssh-keygen -q -t ed25519 -C "${email}" -f "$rootPath"
+ssh-keygen -q -t ed25519 -C "${email}" -f "$rootPath" -N ""
